@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZZSTC_DBSTUDENTMAN'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZZSTC_DBSTUDENTMAN'
+  }
+}
+define service ZZSTUI_DBSTUDENT_O4MAN provider contracts odata_v4_ui {
+  expose ZZSTC_DBSTUDENTMAN;
+}

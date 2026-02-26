@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZZSTC_DBSTUDENTMAN'
+@MappingRole: true
+define role ZZSTC_DBSTUDENTMAN {
+  grant select on ZZSTC_DBSTUDENTMAN
+  where INHERITING CONDITIONS FROM ENTITY ZZSTR_DBSTUDENTMAN REPLACING { ROOT WITH _BaseEntity };
+}
